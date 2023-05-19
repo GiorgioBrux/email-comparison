@@ -756,3 +756,56 @@ mailProviders:
   activeDevelopment:
     text: 'Yes'
     level: 1
+
+ # Purelymail
+- name: Purelymail
+  link: https://purelymail.com/
+  icon: https://i.ibb.co/CK676n5/purelymail.png
+  jurisdiction:
+    text: United States (5 Eyes)
+    level: 3
+  encryption:
+    text: |
+      AES
+    level: 2
+  openSource:
+    text: Webmail (Roundcube)
+    level: 2
+  onionSite:
+    text: 'No'
+    level: 1
+  pricing:
+    text: |
+      No free plan. "Unlimited" at $10 / year.
+      Advanced "pay as you go" plan available.
+    level: 1
+  customDomain:
+    text: Yes
+    level: 2
+  aliases:
+    text: |
+      Yes
+      Unlimited aliases
+      Catch-all (only for custom domains)
+    level: 2
+  webClientAccess:
+    text: |
+      Yes (IMAP, POP3, SMTP)
+    level: 1
+  securityAudit:
+    text: No
+    level: 1
+  acceptsCrypto:
+    text: |
+      No (Card, Paypal)
+    level: 1
+  personalInfoRequired:
+    text: No
+    level: 1
+  mobileApp:
+    text: No
+    level: 1
+  activeDevelopment:
+    text: 'Yes'
+    level: 1
+ 
